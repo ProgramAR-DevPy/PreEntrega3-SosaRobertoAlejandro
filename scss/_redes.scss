@@ -1,0 +1,40 @@
+.redes-sociales {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    li {
+        margin-right: 10px;
+
+        a {
+            i {
+                font-size: 30px;
+                color: #007bff;
+                transition: color 0.3s ease, transform 0.3s ease;
+
+                &:hover {
+                    color: #ff0000;
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+
+    /* Para pantallas de tamaño mediano */
+    @media screen and (max-width: 768px) {
+        .redes-sociales li a i {
+            font-size: 25px;
+        }
+    }
+
+    /* Para pantallas pequeñas */
+    @media screen and (max-width: 480px) {
+        .redes-sociales li a i {
+            font-size: 20px;
+        }
+    }
+}

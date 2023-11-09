@@ -1,0 +1,15 @@
+/* Titulos */
+@font-face {
+  font-family: $font-family-titulos;
+  src: url(/fonts/Indie_Flower/IndieFlower-Regular.ttf);
+  font-weight: $font-weight-titulos;
+  font-style: bold;
+}
+
+.titulos {
+  font-family: $font-family-titulos;
+  font-weight: $font-weight-titulos;
+  text-align: $text-align-titulos;
+  color: $color-titulos;
+  list-style: $list-style-titulos;
+}

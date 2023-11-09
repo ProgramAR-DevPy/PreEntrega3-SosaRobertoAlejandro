@@ -1,0 +1,27 @@
+/* Proyectos */
+
+.cajaPrincipal {
+  display: $display-cajaPrincipal;
+  text-align: $text-align-cajaPrincipal;
+  padding: $padding-cajaPrincipal;
+}
+
+.contenedorProyectos {
+  margin-top: $margin-top-contenedorProyectos;
+}
+
+.imagenProyectos {
+  width: $width-imagenProyectos;
+  height: $height-imagenProyectos;
+}
+
+.contenedorProyectos p {
+  background-color: $background-color-contenedorProyectos-p;
+  color: $color-contenedorProyectos-p;
+  text-align: $text-align-contenedorProyectos-p;
+  padding: $padding-contenedorProyectos-p;
+  font-weight: $font-weight-contenedorProyectos-p;
+  font-size: $font-size-contenedorProyectos-p;
+  text-transform: $text-transform-contenedorProyectos-p;
+  display: $display-contenedorProyectos-p;
+}

@@ -1,0 +1,31 @@
+/* Header */
+
+header {
+  border-bottom: $border-bottom-header;
+  text-align: $text-align-header;
+  padding: $padding-header;
+}
+
+.logo {
+  width: $width-logo;
+  height: $height-logo;
+}
+
+nav ul li {
+  list-style: $list-style-nav-ul-li;
+  display: $display-nav-ul-li;
+  margin: $margin-nav-ul-li;
+  color: $color-nav-ul-li;
+}
+
+.menu {
+  border-bottom: $border-bottom-menu;
+  border-radius: $border-radius-menu;
+}
+
+// a {
+//   text-decoration: $text-decoration-a;
+//   text-transform: $text-transform-a;
+//   font-weight: $font-weight-a;
+//   color: $color-a;
+// }

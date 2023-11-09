@@ -1,0 +1,43 @@
+/* Contacto */
+
+form {
+  margin-top: $margin-top-form;
+}
+
+.colorFormulario {
+  color: $color-colorFormulario;
+  text-align: $text-align-colorFormulario;
+}
+
+label {
+  display: $display-label;
+  font-weight: $font-weight-label;
+  margin-bottom: $margin-bottom-label;
+  color: $color-label;
+  font-size: $font-size-label;
+}
+
+input,
+textarea {
+  display: $display-input-textarea;
+  width: $width-input-textarea;
+  padding: $padding-input-textarea;
+  border: $border-input-textarea;
+  border-radius: $border-radius-input-textarea;
+  font-size: $font-size-input-textarea;
+  margin-bottom: $margin-bottom-input-textarea;
+  background-color: $background-color-input-textarea;
+  color: $color-input-textarea;
+}
+
+::placeholder {
+  color: $color-placeholder;
+}
+
+.botonesFormulario {
+  border: $border-botonesFormulario;
+  padding: $padding-botonesFormulario;
+  border-radius: $border-radius-botonesFormulario;
+  cursor: $cursor-botonesFormulario;
+  margin-top: $margin-top-botonesFormulario;
+}

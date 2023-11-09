@@ -1,0 +1,216 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+body {
+  background-color: black;
+  color: coral;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* Index */
+.contenedorHome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.imagenHome {
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 20px;
+}
+
+.textoHome {
+  text-align: left;
+  margin: 20px;
+}
+
+/* Header */
+header {
+  border-bottom: rgb(128, 4, 236) 2px solid;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 35%;
+  height: auto;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px 10px;
+  color: white;
+}
+
+.menu {
+  border-bottom: black 1px solid;
+  border-radius: 3px;
+}
+
+/* Main */
+main {
+  margin: 20px;
+  padding: 20px;
+}
+
+/* Footer */
+footer {
+  margin: 20px;
+  padding: 20px;
+  border-top: rgb(128, 4, 236) 1px solid;
+  text-align: center;
+}
+
+/* Proyectos */
+.cajaPrincipal {
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+.contenedorProyectos {
+  margin-top: 20px;
+}
+
+.imagenProyectos {
+  width: 100%;
+  height: auto;
+}
+
+.contenedorProyectos p {
+  background-color: black;
+  color: coral;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: lowercase;
+  display: inline-block;
+}
+
+/* Iframe */
+iframe {
+  display: block;
+  width: 100%;
+  height: 800px;
+  border: none;
+}
+
+/* Contacto */
+form {
+  margin-top: 20px;
+}
+
+.colorFormulario {
+  color: white;
+  text-align: center;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: rgb(128, 4, 236);
+  font-size: 20PX;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: #ccc solid 2px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  background-color: black;
+  color: coral;
+}
+
+::placeholder {
+  color: coral;
+}
+
+.botonesFormulario {
+  border: coral 1px solid;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Titulos */
+@font-face {
+  font-family: "Indie Flower";
+  src: url(/fonts/Indie_Flower/IndieFlower-Regular.ttf);
+  font-weight: bold;
+  font-style: bold;
+}
+.titulos {
+  font-family: "Indie Flower";
+  font-weight: bold;
+  text-align: center;
+  color: whitesmoke;
+  list-style: underline;
+}
+
+.redes-sociales {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* Para pantallas de tamaño mediano */
+  /* Para pantallas pequeñas */
+}
+.redes-sociales li {
+  margin-right: 10px;
+}
+.redes-sociales li a i {
+  font-size: 30px;
+  color: #007bff;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+.redes-sociales li a i:hover {
+  color: #ff0000;
+  transform: scale(1.2);
+}
+@media screen and (max-width: 768px) {
+  .redes-sociales .redes-sociales li a i {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .redes-sociales .redes-sociales li a i {
+    font-size: 20px;
+  }
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px 10px;
+  color: white;
+}
+nav ul li a {
+  display: inline-block;
+  border-bottom: black 1px solid;
+  border-radius: 3px;
+  transition: color 0.3s ease, transform 0.3s ease;
+  /* animación al pasar el mouse */
+}
+nav ul li a:hover {
+  color: #ff0000;
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=estilo.css.map */

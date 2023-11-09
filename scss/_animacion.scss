@@ -1,0 +1,24 @@
+nav {
+    ul {
+        li {
+            list-style: none;
+            display: inline-block;
+            margin: 5px 10px;
+            color: white;
+
+            a {
+                display: inline-block;
+                
+                border-bottom: black 1px solid;
+                border-radius: 3px;
+                transition: color 0.3s ease, transform 0.3s ease;
+
+                /* animación al pasar el mouse */
+                &:hover {
+                    color: #ff0000;
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
